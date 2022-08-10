@@ -1,9 +1,9 @@
 const questions = [
     {
-      "question": "You have three timeouts remaining with 3:01 left in the game. Your team is down by one and the opposing team has just made a free throw. As you prepare to inbound, you: ",
+      "question": "You have three timeouts remaining with 3:01 left in the game. Your team is down by one and the opposing team has just made a free throw. Two of your starters are on the bench. As you prepare to inbound, you: ",
       "answer1": "Let your guard bring the ball up. If no easy transition opportunities present themselves in the first few seconds of the shot clock, then call a timeout and set something up",
       "answer1Total": 0,
-      "answer2": "Call a timeout immediately, before the ball is inbounded",
+      "answer2": "Call a timeout immediately, before the ball is inbounded, to get your best players in and call your best play.",
       "answer2Total": 1,
       "answer3": "This is going to be a close game. You need to save all three timeouts to allow offense/defense subs late",
       "answer3Total": 0,
@@ -163,8 +163,10 @@ function loadNextQuestion () {
         <p>100 - You're average.</p>
         <p>80 - You could brush up on some of the rules</p>
         <p>60 - You're costing your team wins</p>
-        <p>40 or below - May god help your team.</p>
+        <p>40 or below - May god have mercy on your team.</p>
         </div>
+        <p></p>
+        <p><a href="https://docs.google.com/document/d/1TEn4jBTPnB1RcUFrxzD-v9k144Z8s98BLl7TL_1F3V0/edit?usp=sharing">See answers and explanations</a></p>
         
       <button type="button" class="btn btn-primary btn-lg" id="restart-button" onclick="restartQuiz()">Restart Quiz</button>
         `;

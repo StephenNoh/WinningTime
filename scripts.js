@@ -22,7 +22,7 @@ const questions = [
       "answer4Total": 0
     },
     {
-      "question": "You're down by four with 15 seconds to go and the ball. You've just called a timeout, leaving yourself with one remaining. You are deciding which play to draw up. You have a quick 2 play that usually takes about two seconds and works 55% of the time. You also have a play for a 3 that can get you a 35 percent shot. All of the players on the opposing team shoot at least 80% from the line. You:",
+      "question": "You're down by four with 15 seconds to go and the ball. You've just called a timeout, leaving yourself with one remaining. You are deciding which play to draw up. You have a quick 2 play that usually takes about two seconds and works 55% of the time. You also have a fast play for a 3 that can get you a 35 percent shot. All of the players on the opposing team shoot at least 80% from the line. You:",
       "answer1": "Call the quick 2 play. You will have to foul anyway, and if you miss the 3, then the game is over.",
       "answer1Total": 0,
       "answer2": "Call the 3 play. You need to make up points as quickly as possible.",

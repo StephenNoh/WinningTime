@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Winning Time Quiz</title> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h2>The Winning Time Quiz</h2>
+            <p class="lead">See how good you are at coaching late game situations</p>
+          </div>
+        <div class="quiz-container">
+            <ol>
+                <div id="question" class="question"></div>
+            </ol>
+            <label class="option">
+                <input type="radio" name="option" value="1" />
+                <span class="option1"></span>
+            </label>
+            <label class="option">
+                <input type="radio" name="option" value="2" />
+                <span class="option2"></span>
+            </label>
+            <label class="option">
+                <input type="radio" name="option" value="3" />
+                <span class="option3"></span>
+            </label>
+            <label class="option">
+                <input type="radio" name="option" value="4" />
+                <span class="option4"></span>
+            </label>
+            <!-- Buttons -->
+            <div class="controls">
+                <button class="previous">Previous</button>
+                <button class="next">Next</button>
+            </div>
+        </div>
+
+        <div class="result" id="hidden"></div>
+   
+    <!-- Copyright Section-->
+        <div class="footer">
+            <a href="https://twitter.com/StephNoh">Follow me on Twitter @StephNoh</a>
+            <div class="copyright">Copyright © Stephen Noh 2022</div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+
+</html>

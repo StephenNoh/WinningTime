@@ -166,7 +166,7 @@ function loadNextQuestion () {
         <p>40 or below - May god have mercy on your team.</p>
         </div>
         <p></p>
-        <p><a href="https://docs.google.com/document/d/1TEn4jBTPnB1RcUFrxzD-v9k144Z8s98BLl7TL_1F3V0/edit?usp=sharing">See answers and explanations</a></p>
+        <p><a href="https://docs.google.com/document/d/1TEn4jBTPnB1RcUFrxzD-v9k144Z8s98BLl7TL_1F3V0/edit?usp=sharing" target="_blank">See answers and explanations</a></p>
         
       <button type="button" class="btn btn-primary btn-lg" id="restart-button" onclick="restartQuiz()">Restart Quiz</button>
         `;

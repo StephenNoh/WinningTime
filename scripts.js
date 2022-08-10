@@ -3,7 +3,7 @@ const questions = [
       "question": "You have three timeouts remaining with 3:01 left in the game. Your team is down by one and the opposing team has just made a free throw. Two of your starters are on the bench. As you prepare to inbound, you: ",
       "answer1": "Let your guard bring the ball up. If no easy transition opportunities present themselves in the first few seconds of the shot clock, then call a timeout and set something up",
       "answer1Total": 0,
-      "answer2": "Call a timeout immediately, before the ball is inbounded, to get your best players in and call your best play.",
+      "answer2": "Call a timeout immediately, while there's still over 3 minutes left in the game.",
       "answer2Total": 1,
       "answer3": "This is going to be a close game. You need to save all three timeouts to allow offense/defense subs late",
       "answer3Total": 0,
@@ -65,7 +65,7 @@ const questions = [
       "answer2Total": 0,
       "answer3": "Save your challenge for the last two minutes",
       "answer3Total": 0,
-      "answer4": "Don't call a challenge.",
+      "answer4": "Don't call a challenge. You don't have any timeouts remaining.",
       "answer4Total": 1
 
     },
@@ -120,7 +120,6 @@ function generateQuestions (index) {
 }
 
 
-  
 function loadNextQuestion () {
   const selectedOption = document.querySelector('input[type="radio"]:checked');
   //Check if input selected
@@ -142,7 +141,11 @@ function loadNextQuestion () {
       nextButton.textContent = 'Finish';
   }
   
-
+//function to tweet out score
+function tweetLink() {
+  window.open(`https://twitter.com/intent/tweet?url=http%3A%2F%2Fwinningtime.netlify.app&text=I%20scored%20a%20${totalScore}%20on%20the%20Winning%20Time%20Test%20no.%202.%20See%20if%20you%20can%20beat%20my%20score%21`, "_blank")
+}
+  
   //populate HTML in results container
   if(currentQuestion == totalQuestions) {
       let totalScore = score.reduce(function(a,b){

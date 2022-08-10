@@ -153,8 +153,18 @@ function loadNextQuestion () {
       result.style.display = "inherit";
       result.innerHTML =
 
-        `<h1 class="final-score">YOUR FINAL SCORE</h1> 
-        <p>${totalScore}/7</p>
+        `<h1 class="final-score">YOUR COACHING IQ</h1> 
+        <div id="scorecard">
+        <strong>Your Crunch Time IQ: ${totalScore*20}</strong>
+        <hr>
+        <p>Scoring Guide:</p>
+        <p>140 - Perfect Score! You're a legend.</p>
+        <p>120 - You'd make an excellent coach.</p>
+        <p>100 - You're average.</p>
+        <p>80 - You could brush up on some of the rules</p>
+        <p>60 - You're costing your team wins</p>
+        <p>40 or below - May god help your team.</p>
+        </div>
         
       <button type="button" class="btn btn-primary btn-lg" id="restart-button" onclick="restartQuiz()">Restart Quiz</button>
         `;

@@ -11,7 +11,7 @@ const questions = [
       "answer4Total": 0
     },
     {
-      "question": "Your team is down by one with 11 seconds to go and one timeout remaining. Your opponent has airballed a wild layup, and your point guard has just grabbed the rebound. You:",
+      "question": "Your team is down by one with eight seconds to go and one timeout remaining. Your opponent has airballed a wild layup, and your point guard has just grabbed the rebound. You:",
       "answer1": "Call a timeout to advance the ball and set up the game-winner",
       "answer1Total": 0,
       "answer2": "Call a timeout to sub in your best shooters",

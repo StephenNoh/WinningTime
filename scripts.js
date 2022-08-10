@@ -1,11 +1,11 @@
 const questions = [
     {
-      "question": "You have three timeouts remaining with 3:01 left in the game. Your team is down by one and the opposing team has just made a free throw. Two of your starters are on the bench. As you prepare to inbound, you: ",
-      "answer1": "Let your guard bring the ball up. If no easy transition opportunities present themselves in the first few seconds of the shot clock, then call a timeout and set something up",
+      "question": "You have three timeouts remaining with 3:01 left in the game. The other team has just scored. Your star player is motioning that he badly needs a breather. As you prepare to inbound, you: ",
+      "answer1": "Get a sub in without burning a timeout",
       "answer1Total": 0,
       "answer2": "Call a timeout immediately, while there's still over 3 minutes left in the game.",
       "answer2Total": 1,
-      "answer3": "This is going to be a close game. You need to save all three timeouts to allow offense/defense subs late",
+      "answer3": "Don't burn a timeout. You need to save all three to allow offense/defense subs late",
       "answer3Total": 0,
       "answer4": "Wait until your team crosses halfcourt, then call timeout so that you can inbound from halfcourt where your plays work better.",
       "answer4Total": 0
@@ -65,7 +65,7 @@ const questions = [
       "answer2Total": 0,
       "answer3": "Save your challenge for the last two minutes",
       "answer3Total": 0,
-      "answer4": "Don't call a challenge. You don't have any timeouts remaining.",
+      "answer4": "Don't call a challenge. You don't have any timeouts remaining and you'll be assessed a technical even if you are right.",
       "answer4Total": 1
 
     },
